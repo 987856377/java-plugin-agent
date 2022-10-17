@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3c51002-82bc-457a-b711-3c234778b311" name="Changes" comment="" />
+    <list default="true" id="d3c51002-82bc-457a-b711-3c234778b311" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/plugins/data/around/src/main/java/org/apache/agent/plugin/data/around/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/data/transaction/src/main/java/org/apache/agent/plugin/data/transaction/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/logging/base-logging/src/main/java/org/apache/agent/plugin/logging/base/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/data/around/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/data/around/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/data/around/src/main/java/org/apache/agent/plugin/data/around/definition/AroundPluginDefinitionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/data/around/src/main/java/org/apache/agent/plugin/data/around/definition/AroundPluginDefinitionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/data/around/src/main/java/org/apache/agent/plugin/data/around/service/AroundPluginBootService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/data/around/src/main/java/org/apache/agent/plugin/data/around/service/AroundPluginBootService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/data/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/data/transaction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/data/transaction/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/data/transaction/src/main/java/org/apache/agent/plugin/data/transaction/definition/TransactionPluginDefinitionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/data/transaction/src/main/java/org/apache/agent/plugin/data/transaction/definition/TransactionPluginDefinitionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/data/transaction/src/main/java/org/apache/agent/plugin/data/transaction/service/TransactionPluginBootService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/data/transaction/src/main/java/org/apache/agent/plugin/data/transaction/service/TransactionPluginBootService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/logging/base-logging/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/logging/base-logging/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/logging/base-logging/src/main/java/org/apache/agent/plugin/logging/base/definition/BaseLoggingPluginDefinitionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/logging/base-logging/src/main/java/org/apache/agent/plugin/logging/base/definition/BaseLoggingPluginDefinitionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/logging/base-logging/src/main/java/org/apache/agent/plugin/logging/base/service/BaseLoggingPluginBootService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/logging/base-logging/src/main/java/org/apache/agent/plugin/logging/base/service/BaseLoggingPluginBootService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/logging/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/logging/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +31,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
@@ -40,11 +61,16 @@
         <option name="userSettingsFile" value="D:\devtools\apache-maven-3.8.4\conf\settings-bsoft.xml" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2GFUBgsq1Wv1KtHiXR6q0OuqJCs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,7 +85,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30609894" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -77,10 +103,25 @@
       <recent name="org.apache.agent.core.config.loader" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.apache.agent.plugin.logging.base" />
+      <recent name="org.apache.agent.plugin.data.transaction" />
       <recent name="org.apache.agent.bootstrap" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AgentConfigurationLoaderTest.assertLoad">
+  <component name="RunManager" selected="Application.AroundPluginBootService">
+    <configuration name="AroundPluginBootService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.agent.plugin.data.around.service.AroundPluginBootService" />
+      <module name="around" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.agent.plugin.data.around.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AgentConfigurationLoaderTest.assertLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="agent-core" />
       <extension name="coverage">
@@ -92,22 +133,6 @@
       <option name="PACKAGE_NAME" value="org.apache.agent.core.config.loader" />
       <option name="MAIN_CLASS_NAME" value="org.apache.agent.core.config.loader.AgentConfigurationLoaderTest" />
       <option name="METHOD_NAME" value="assertLoad" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AgentConfigurationLoaderTest.load" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="agent-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.apache.agent.core.config.loader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.apache.agent.core.config.loader" />
-      <option name="MAIN_CLASS_NAME" value="org.apache.agent.core.config.loader.AgentConfigurationLoaderTest" />
-      <option name="METHOD_NAME" value="load" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AroundPluginBootService" />
         <item itemvalue="JUnit.AgentConfigurationLoaderTest.assertLoad" />
         <item itemvalue="JUnit.InterceptorConvertTest.assertConvert" />
         <item itemvalue="JUnit.ShardingSphereTransformerTest.assertConstructor" />
         <item itemvalue="JUnit.ShardingSphereTransformerTest.assertStaticMethod" />
-        <item itemvalue="JUnit.AgentConfigurationLoaderTest.load" />
       </list>
     </recent_temporary>
   </component>
@@ -181,11 +206,46 @@
       <updated>1665983691890</updated>
       <workItem from="1665983693098" duration="1492000" />
       <workItem from="1665985613590" duration="1557000" />
-      <workItem from="1665987245022" duration="266000" />
+      <workItem from="1665987245022" duration="4421000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1665987685097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665987685097</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>

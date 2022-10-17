@@ -21,6 +21,7 @@ import com.google.common.base.Preconditions;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.agent.api.config.PluginConfiguration;
 import org.apache.agent.api.spi.boot.PluginBootService;
+import org.apache.agent.plugin.data.transaction.Type;
 
 /**
  * Open tracing plugin boot service.
@@ -45,6 +46,6 @@ public final class TransactionPluginBootService implements PluginBootService {
 
     @Override
     public String getType() {
-        return "Transaction";
+        return Type.PLUGIN_TYPE;
     }
 }

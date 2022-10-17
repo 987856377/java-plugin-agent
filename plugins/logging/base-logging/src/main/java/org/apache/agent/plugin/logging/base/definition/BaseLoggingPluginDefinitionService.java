@@ -19,6 +19,7 @@ package org.apache.agent.plugin.logging.base.definition;
 
 import net.bytebuddy.matcher.ElementMatchers;
 import org.apache.agent.api.spi.definition.AbstractPluginDefinitionService;
+import org.apache.agent.plugin.logging.base.Type;
 
 /**
  * Base logging plugin definition service.
@@ -41,6 +42,6 @@ public final class BaseLoggingPluginDefinitionService extends AbstractPluginDefi
 
     @Override
     public String getType() {
-        return "BaseLogging";
+        return Type.PLUGIN_TYPE;
     }
 }

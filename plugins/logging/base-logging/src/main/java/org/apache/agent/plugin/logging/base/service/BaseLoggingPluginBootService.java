@@ -20,6 +20,7 @@ package org.apache.agent.plugin.logging.base.service;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.agent.api.config.PluginConfiguration;
 import org.apache.agent.api.spi.boot.PluginBootService;
+import org.apache.agent.plugin.logging.base.Type;
 
 /**
  * Base logging plugin boot service.
@@ -39,6 +40,6 @@ public final class BaseLoggingPluginBootService implements PluginBootService {
 
     @Override
     public String getType() {
-        return "BaseLogging";
+        return Type.PLUGIN_TYPE;
     }
 }

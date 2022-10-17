@@ -9,10 +9,7 @@
     </parent>
 
     <artifactId>data</artifactId>
-
     <packaging>pom</packaging>
-
-    <name>${project.artifactId}</name>
 
     <modules>
         <module>transaction</module>
@@ -51,6 +48,4 @@
             </plugin>
         </plugins>
     </build>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
 </project>

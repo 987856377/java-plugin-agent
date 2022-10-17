@@ -11,8 +11,6 @@
     <artifactId>logging</artifactId>
     <packaging>pom</packaging>
 
-    <name>${project.artifactId}</name>
-
     <modules>
         <module>base-logging</module>
     </modules>
@@ -41,6 +39,4 @@
             </plugin>
         </plugins>
     </build>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
 </project>

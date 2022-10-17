@@ -24,6 +24,7 @@ import org.apache.agent.api.spi.definition.AbstractPluginDefinitionService;
 import org.apache.agent.core.entity.Interceptor;
 import org.apache.agent.core.entity.Interceptors;
 import org.apache.agent.core.entity.TargetPoint;
+import org.apache.agent.plugin.data.around.Type;
 import org.yaml.snakeyaml.Yaml;
 
 import java.io.InputStream;
@@ -70,6 +71,6 @@ public final class AroundPluginDefinitionService extends AbstractPluginDefinitio
 
     @Override
     public String getType() {
-        return "Around";
+        return Type.PLUGIN_TYPE;
     }
 }
