@@ -28,6 +28,11 @@
             <artifactId>agent-core</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
     </dependencies>
     
     <build>
@@ -60,7 +65,8 @@
                                     <exclude>com.google.*:*</exclude>
                                     <exclude>com.google.guava:guava:*</exclude>
                                     <exclude>org.checkerframework:checker-qual:*</exclude>
-                                    <exclude>org.slf4j:*</exclude>
+                                    <!--TODO: 插件默认使用日志框架，若目标服务有日志框架，则取消注释，使用目标服务中的日志框架-->
+<!--                                    <exclude>org.slf4j:*</exclude>-->
                                     <exclude>org.yaml:snakeyaml:*</exclude>
                                     <exclude>org.apache.commons:logging:*</exclude>
                                 </excludes>
