@@ -62,12 +62,13 @@
                             </transformers>
                             <artifactSet>
                                 <excludes>
+                                    <!--TODO: 插件默认使用日志框架，若目标服务有日志框架，则取消注释，使用目标服务中的日志框架-->
+                                    <!--<exclude>org.slf4j:*</exclude>-->
                                     <exclude>com.google.*:*</exclude>
                                     <exclude>com.google.guava:guava:*</exclude>
                                     <exclude>org.checkerframework:checker-qual:*</exclude>
-                                    <!--TODO: 插件默认使用日志框架，若目标服务有日志框架，则取消注释，使用目标服务中的日志框架-->
-<!--                                    <exclude>org.slf4j:*</exclude>-->
                                     <exclude>org.yaml:snakeyaml:*</exclude>
+                                    <exclude>org.apache.commons:commons-lang3:jar:*</exclude>
                                     <exclude>org.apache.commons:logging:*</exclude>
                                 </excludes>
                             </artifactSet>

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3c51002-82bc-457a-b711-3c234778b311" name="Changes" comment="feat: 插件添加默认日志打印框架" />
+    <list default="true" id="d3c51002-82bc-457a-b711-3c234778b311" name="Changes" comment="feat: 插件添加默认日志打印框架">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent-bootstrap/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/agent-bootstrap/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +187,7 @@
       <workItem from="1665985613590" duration="1557000" />
       <workItem from="1665987245022" duration="4775000" />
       <workItem from="1665992617735" duration="2435000" />
-      <workItem from="1666002404017" duration="5958000" />
+      <workItem from="1666002404017" duration="8095000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665987685097</created>
@@ -207,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666008361629</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: 插件添加默认日志打印框架">
+      <created>1666008462258</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666008462258</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
