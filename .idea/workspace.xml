@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d3c51002-82bc-457a-b711-3c234778b311" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit3 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/agent-bootstrap/src/main/java/org/apache/agent/bootstrap/ShardingSphereAgent.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/agent-api/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/agent-core/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/agent-core/src/test/java/org/apache/agent/core/config/loader/AgentConfigurationLoaderTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/agent-core/src/test/java/org/apache/agent/core/bytebuddy/transformer/ShardingSphereTransformerTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/agent-core/src/test/java/org/apache/agent/core/entity/InterceptorConvertTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/agent-core/src/main/java/org/apache/agent/core/plugin/interceptor/ConstructorInterceptor.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/plugins/data/around/src/main/java/org/apache/agent/plugin/data/around/advice/AroundAdvice.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/agent-bootstrap/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../devtools/apache-maven-3.8.4" />
+        <option name="threads" value="8" />
+        <option name="userSettingsFile" value="D:\devtools\apache-maven-3.8.4\conf\settings-bsoft.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2GFUBgsq1Wv1KtHiXR6q0OuqJCs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.30609894" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\temp\java\java-plugin-agent" />
+      <recent name="D:\temp\java\java-plugin-agent\agent-core\src\test\resources\conf" />
+      <recent name="D:\temp\java\java-plugin-agent\agent-core\src\test" />
+      <recent name="D:\temp\java\java-plugin-agent\agent-core\src\test\java\org\apache\agent" />
+      <recent name="D:\temp\java\java-plugin-agent\agent-core\src\main\java\org\apache\agent" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.apache.agent.core.config.loader" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.apache.agent.bootstrap" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AgentConfigurationLoaderTest.assertLoad">
+    <configuration name="AgentConfigurationLoaderTest.assertLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agent-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.agent.core.config.loader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.apache.agent.core.config.loader" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.agent.core.config.loader.AgentConfigurationLoaderTest" />
+      <option name="METHOD_NAME" value="assertLoad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgentConfigurationLoaderTest.load" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agent-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.agent.core.config.loader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.apache.agent.core.config.loader" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.agent.core.config.loader.AgentConfigurationLoaderTest" />
+      <option name="METHOD_NAME" value="load" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterceptorConvertTest.assertConvert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agent-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.agent.core.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.apache.agent.core.entity" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.agent.core.entity.InterceptorConvertTest" />
+      <option name="METHOD_NAME" value="assertConvert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShardingSphereTransformerTest.assertConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agent-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.agent.core.bytebuddy.transformer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.apache.agent.core.bytebuddy.transformer" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.agent.core.bytebuddy.transformer.ShardingSphereTransformerTest" />
+      <option name="METHOD_NAME" value="assertConstructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShardingSphereTransformerTest.assertStaticMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agent-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.agent.core.bytebuddy.transformer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.apache.agent.core.bytebuddy.transformer" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.agent.core.bytebuddy.transformer.ShardingSphereTransformerTest" />
+      <option name="METHOD_NAME" value="assertStaticMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AgentConfigurationLoaderTest.assertLoad" />
+        <item itemvalue="JUnit.InterceptorConvertTest.assertConvert" />
+        <item itemvalue="JUnit.ShardingSphereTransformerTest.assertConstructor" />
+        <item itemvalue="JUnit.ShardingSphereTransformerTest.assertStaticMethod" />
+        <item itemvalue="JUnit.AgentConfigurationLoaderTest.load" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3c51002-82bc-457a-b711-3c234778b311" name="Changes" comment="" />
+      <created>1665983691890</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665983691890</updated>
+      <workItem from="1665983693098" duration="1492000" />
+      <workItem from="1665985613590" duration="1557000" />
+      <workItem from="1665987245022" duration="266000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
