@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3c51002-82bc-457a-b711-3c234778b311" name="Changes" comment="feat: 移除多余包">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="d3c51002-82bc-457a-b711-3c234778b311" name="Changes" comment="feat: 移除多余包,持续测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/data/around/src/main/java/org/apache/agent/plugin/data/around/advice/AroundAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/data/around/src/main/java/org/apache/agent/plugin/data/around/advice/AroundAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/data/around/src/main/resources/config/around.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/data/around/src/main/resources/config/around.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/data/transaction/src/main/java/org/apache/agent/plugin/data/transaction/advice/TransactionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/data/transaction/src/main/java/org/apache/agent/plugin/data/transaction/advice/TransactionAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/agent-core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugins/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +79,10 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30609894" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -200,7 +198,8 @@
       <workItem from="1665987245022" duration="4775000" />
       <workItem from="1665992617735" duration="2435000" />
       <workItem from="1666002404017" duration="8825000" />
-      <workItem from="1666057044231" duration="4175000" />
+      <workItem from="1666057044231" duration="4427000" />
+      <workItem from="1666061769496" duration="1425000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665987685097</created>
@@ -237,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666010664294</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: 移除多余包,持续测试">
+      <created>1666061382833</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666061382833</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +278,7 @@
     <MESSAGE value="refactor: update plugin type define" />
     <MESSAGE value="feat: 插件添加默认日志打印框架" />
     <MESSAGE value="feat: 移除多余包" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 移除多余包" />
+    <MESSAGE value="feat: 移除多余包,持续测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 移除多余包,持续测试" />
   </component>
 </project>

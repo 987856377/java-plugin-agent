@@ -16,6 +16,10 @@
         <module>data</module>
     </modules>
 
+    <properties>
+        <gson.version>2.9.1</gson.version>
+    </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -34,7 +38,6 @@
                 <groupId>com.google.code.gson</groupId>
                 <artifactId>gson</artifactId>
                 <version>${gson.version}</version>
-                <scope>provided</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -55,21 +58,29 @@
                             <shadeSourcesContent>true</shadeSourcesContent>
                             <artifactSet>
                                 <excludes>
+                                    <exclude>org.slf4j:*</exclude>
                                     <exclude>net.bytebuddy:byte-buddy:jar:</exclude>
+                                    <exclude>org.yaml:snakeyaml:*</exclude>
                                     <exclude>org.checkerframework:checker-qual:jar:</exclude>
                                     <exclude>com.h2database:h2:jar:</exclude>
-                                    <exclude>com.google.*:*</exclude>
-                                    <exclude>com.google.guava:guava:*</exclude>
-                                    <exclude>org.slf4j:*</exclude>
-                                    <exclude>org.yaml:snakeyaml:*</exclude>
                                     <exclude>org.apache.commons:commons-lang3:jar:*</exclude>
                                     <exclude>org.apache.commons:logging:*</exclude>
+                                    <!--<exclude>com.google.*:*</exclude>-->
+                                    <!--<exclude>com.google.guava:guava:*</exclude>-->
+                                    <exclude>com.google.errorprone:error_prone_annotations:jar:</exclude>
+                                    <exclude>com.google.code.findbugs:jsr305:jar:</exclude>
+                                    <exclude>com.google.guava:listenablefuture:jar:*</exclude>
+                                    <exclude>com.google.j2objc:j2objc-annotations:jar:*</exclude>
                                 </excludes>
                             </artifactSet>
                             <relocations>
                                 <relocation>
                                     <pattern>net.bytebuddy</pattern>
                                     <shadedPattern>${shade.package}.net.bytebuddy</shadedPattern>
+                                </relocation>
+                                <relocation>
+                                    <pattern>com.google</pattern>
+                                    <shadedPattern>${shade.package}.com.google</shadedPattern>
                                 </relocation>
                             </relocations>
                             <filters>
