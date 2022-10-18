@@ -43,8 +43,14 @@ public final class AroundAdvice implements InstanceMethodAroundAdvice {
     @Override
     public void afterMethod(AdviceTargetObject target, Method method, Object[] args, MethodInvocationResult result) {
         try {
-            long elapsedTime = System.currentTimeMillis() - ElapsedTimeThreadLocal.INSTANCE.get();
-            log.info("Invoke Method: {}, Result: {}, Cost: {}ms", method.getName(), GSON.toJson(result.getResult()), elapsedTime);
+            Long aLong = ElapsedTimeThreadLocal.INSTANCE.get();
+            if (aLong != null) {
+                log.info("Invoke Method: {}, Result: {}, Cost: {}ms", method.getName(), GSON.toJson(result.getResult()), System.currentTimeMillis() - aLong);
+            } else {
+                log.info("Invoke Method: {}, Result: {}", method.getName(), GSON.toJson(result.getResult()));
+            }
+        } catch (Exception e) {
+            log.info("Invoke Method: {}, Result: {}, Exception: {}", method.getName(), GSON.toJson(result.getResult()), e.getMessage());
         } finally {
             ElapsedTimeThreadLocal.INSTANCE.remove();
         }

@@ -21,3 +21,8 @@ interceptors:
     points:
       - type: instance
         name: run
+  - target: com.springboot.provider.module.common.controller.CommonController
+    instanceAdvice: org.apache.agent.plugin.data.around.advice.AroundAdvice
+    points:
+      - type: instance
+        name: spi

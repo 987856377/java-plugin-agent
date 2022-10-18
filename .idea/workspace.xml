@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3c51002-82bc-457a-b711-3c234778b311" name="Changes" comment="feat: 插件添加默认日志打印框架">
+    <list default="true" id="d3c51002-82bc-457a-b711-3c234778b311" name="Changes" comment="feat: 移除多余包">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent-bootstrap/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/agent-bootstrap/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/data/around/src/main/java/org/apache/agent/plugin/data/around/advice/AroundAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/data/around/src/main/java/org/apache/agent/plugin/data/around/advice/AroundAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/data/around/src/main/resources/config/around.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/data/around/src/main/resources/config/around.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/data/transaction/src/main/java/org/apache/agent/plugin/data/transaction/advice/TransactionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/data/transaction/src/main/java/org/apache/agent/plugin/data/transaction/advice/TransactionAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
@@ -72,7 +84,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30609894" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -187,7 +199,8 @@
       <workItem from="1665985613590" duration="1557000" />
       <workItem from="1665987245022" duration="4775000" />
       <workItem from="1665992617735" duration="2435000" />
-      <workItem from="1666002404017" duration="8095000" />
+      <workItem from="1666002404017" duration="8825000" />
+      <workItem from="1666057044231" duration="4175000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665987685097</created>
@@ -217,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666008462258</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: 移除多余包">
+      <created>1666010664294</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666010664294</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +271,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="refactor: update plugin type define" />
     <MESSAGE value="feat: 插件添加默认日志打印框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 插件添加默认日志打印框架" />
+    <MESSAGE value="feat: 移除多余包" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 移除多余包" />
   </component>
 </project>
