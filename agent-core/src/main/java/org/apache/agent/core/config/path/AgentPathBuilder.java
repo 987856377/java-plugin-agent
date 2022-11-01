@@ -37,10 +37,10 @@ public final class AgentPathBuilder {
     /**
      * dir/
      * - java-plugin-agent.jar
-     * plugin/
-     * - around-1.0-SNAPSHOT.jar
-     * - transaction-1.0-SNAPSHOT.jar
-     * - base-logging-1.0-SNAPSHOT.jar
+     * - plugin/
+     *  -- around-1.0-SNAPSHOT.jar
+     *  -- transaction-1.0-SNAPSHOT.jar
+     *  -- base-logging-1.0-SNAPSHOT.jar
      */
     private static final String PLUGIN_PATH = "plugins";
 
