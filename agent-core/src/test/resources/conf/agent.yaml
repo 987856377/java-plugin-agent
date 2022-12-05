@@ -22,13 +22,13 @@ plugins:
         level: "INFO"
   data:
     Transaction:
-      host:  "localhost"
+      host: "localhost"
       port: 9090
       password: "123456"
       props:
         jvm-information-collector-enabled: "true"
     Around:
-      host:  "localhost"
+      host: "localhost"
       port: 9095
       password: "root"
       props:
