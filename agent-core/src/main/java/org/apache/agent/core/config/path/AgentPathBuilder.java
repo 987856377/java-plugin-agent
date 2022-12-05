@@ -45,10 +45,10 @@ public final class AgentPathBuilder {
     private static final String PLUGIN_PATH = "plugins";
 
     @Getter
-    private static final File agentPath;
+    private static File agentPath;
 
     @Getter
-    private static final File pluginPath;
+    private static File pluginPath;
 
     static {
         agentPath = buildAgentPath();
